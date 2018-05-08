@@ -107,7 +107,8 @@ if (isDev) {
                 cacheGroups: {
                     commons: {
                         chunks: 'initial',
-                        minChunks: 2, maxInitialRequests: 5,
+                        minChunks: 2,
+                        maxInitialRequests: 5,
                         minSize: 0
                     },
                     vendor: {
