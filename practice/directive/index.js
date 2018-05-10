@@ -3,6 +3,8 @@
  */
 import Vue from 'vue'
 
+//'<input text="text" v-model.trim="text"/>'
+
 new Vue({
   el: '#root',
   template: '' +
@@ -11,14 +13,17 @@ new Vue({
   '<div v-if="text === 0">else text</div>' +
   '<div v-else>else content</div>' +
   '<div v-html="html"></div>' +
-  '<input text="text" v-model="text"/>' +
+  '<input text="text" v-model.number="text"/>' +
   '<input type="checkbox" v-model="active"/>' +
   '<div>' +
   '<input type="checkbox" :value="1" v-model="arr"/>' +
   '<input type="checkbox" :value="2" v-model="arr"/>' +
   '<input type="checkbox" :value="3" v-model="arr"/>' +
   '</div>' +
-  '<input text="text" v-model="text"/>' +
+  '<div>' +
+  '<input type="radio" :value="one" v-model="arr"/>' +
+  '<input type="radio" :value="two" v-model="arr"/>' +
+  '</div>' +
   '<ul>' +
    '<li v-for="(item, index) in arr" :key="item">{{item}}:{{index}}</li>' +
   '</ul>' +
