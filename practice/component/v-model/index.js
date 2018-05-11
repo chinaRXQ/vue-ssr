@@ -4,10 +4,14 @@
 import Vue from 'vue'
 
 const component = {
+  model: {
+    prop: 'value1',
+    event: 'change'
+  },
   props: ['value'],
   template: `
     <div>
-      <input type="text" @input="handleInput" :value="value">
+      <input type="text" @input="handleInput" :value="value" />
     </div>
   `,
   methods: {
@@ -29,7 +33,8 @@ new Vue({
   },
   template: `
     <div>
-      <comp-one :value="value" @input="value = arguments[0]"></comp-one>
+      <!--<comp-one :value="value" @input="value = arguments[0]"></comp-one>-->
+      <comp-one v-model="value"></comp-one>
     </div>
-  `
+`
 })

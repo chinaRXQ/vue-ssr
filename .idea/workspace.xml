@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ad6c9756-56ec-45f9-bade-36d234235a49" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/component/define/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/component/extend/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/component/v-model/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/practice/component/features/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice/directive/index.js" afterPath="$PROJECT_DIR$/practice/directive/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice/component/v-model/index.js" afterPath="$PROJECT_DIR$/practice/component/v-model/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/practice/index.js" afterPath="$PROJECT_DIR$/practice/index.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -35,14 +33,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice/component/v-model/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+            <state relative-caret-position="95">
+              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
               <folding>
-                <marker date="1525858637106" expanded="true" signature="123:196" ph="..." />
-                <marker date="1525858637106" expanded="true" signature="439:523" ph="..." />
+                <marker date="1526020940410" expanded="true" signature="179:254" ph="..." />
+                <marker date="1526020940410" expanded="true" signature="497:632" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/practice/component/features/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+              <folding>
+                <marker date="1526032637368" expanded="true" signature="125:305" ph="..." />
+                <marker date="1526032637368" expanded="true" signature="155:210" ph="..." />
+                <marker date="1526032637368" expanded="true" signature="238:291" ph="..." />
+                <marker date="1526032637368" expanded="true" signature="352:383" ph="..." />
+                <marker date="1526032637368" expanded="true" signature="679:821" ph="..." />
+                <marker date="1526032637368" expanded="true" signature="696:810" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/practice/component/define/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+              <folding>
+                <marker date="1525847580465" expanded="true" signature="432:596" ph="..." />
+                <marker date="1525847580465" expanded="true" signature="1011:1174" ph="..." />
               </folding>
             </state>
           </provider>
@@ -51,8 +79,8 @@
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/practice/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+            <state relative-caret-position="171">
+              <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -122,8 +150,9 @@
         <option value="$PROJECT_DIR$/practice/component/extend.js" />
         <option value="$PROJECT_DIR$/practice/component/extend/extend.js" />
         <option value="$PROJECT_DIR$/practice/component/extend/index.js" />
-        <option value="$PROJECT_DIR$/practice/index.js" />
         <option value="$PROJECT_DIR$/practice/component/v-model/index.js" />
+        <option value="$PROJECT_DIR$/practice/index.js" />
+        <option value="$PROJECT_DIR$/practice/component/features/index.js" />
       </list>
     </option>
   </component>
@@ -143,8 +172,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="956" />
-    <option name="width" value="1122" />
+    <option name="x" value="281" />
+    <option name="y" value="83" />
+    <option name="width" value="916" />
     <option name="height" value="1081" />
   </component>
   <component name="ProjectView">
@@ -162,8 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -208,36 +236,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-ssr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-ssr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-ssr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vue-ssr" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +313,7 @@
     <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
       <option name="cucumberJsArguments" value="" />
       <option name="executablePath" />
-      <option name="filePath" />
+      <option name="filePath" value="C:\Users\hp\Documents\GitHub\vue-ssr\practice\component\features" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -371,23 +373,24 @@
       <workItem from="1525685945395" duration="1181000" />
       <workItem from="1525766022364" duration="4949000" />
       <workItem from="1525830194250" duration="20062000" />
+      <workItem from="1526018605693" duration="6445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93780000" />
+    <option name="totallyTimeSpent" value="100225000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="956" y="0" width="1122" height="1081" extended-state="1" />
+    <frame x="281" y="83" width="916" height="1081" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22693726" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28018224" sideWeight="0.4935484" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24924012" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32805908" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22693726" sideWeight="0.5064516" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -428,7 +431,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/bundle.js" />
     <entry file="file://$PROJECT_DIR$/src/assets/styles/test.css" />
     <entry file="file://$PROJECT_DIR$/src/assets/styles/test-stylus.styl" />
     <entry file="file://$PROJECT_DIR$/src/todo/footer.vue" />
@@ -605,7 +607,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1311">
           <caret line="71" column="72" lean-forward="true" selection-start-line="71" selection-start-column="72" selection-end-line="71" selection-end-column="72" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -613,18 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="28" column="9" lean-forward="false" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/practice/component/define/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
-          <folding>
-            <marker date="1525847580465" expanded="true" signature="432:596" ph="..." />
-            <marker date="1525847580465" expanded="true" signature="1011:1174" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,28 +621,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="751">
           <caret line="70" column="2" lean-forward="true" selection-start-line="70" selection-start-column="2" selection-end-line="70" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/component/define/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="23" column="4" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
           <folding>
-            <marker date="1525856389760" expanded="true" signature="432:596" ph="..." />
-            <marker date="1525856389760" expanded="true" signature="1110:1174" ph="..." />
+            <marker date="1525847580465" expanded="true" signature="432:596" ph="..." />
+            <marker date="1525847580465" expanded="true" signature="1011:1174" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/practice/component/v-model/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+          <folding>
+            <marker date="1526020940410" expanded="true" signature="179:254" ph="..." />
+            <marker date="1526020940410" expanded="true" signature="497:632" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/practice/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="171">
+          <caret line="11" column="28" lean-forward="false" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/practice/component/v-model/index.js">
+    <entry file="file://$PROJECT_DIR$/practice/component/features/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        <state relative-caret-position="323">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
           <folding>
-            <marker date="1525858637106" expanded="true" signature="123:196" ph="..." />
-            <marker date="1525858637106" expanded="true" signature="439:523" ph="..." />
+            <marker date="1526032637368" expanded="true" signature="125:305" ph="..." />
+            <marker date="1526032637368" expanded="true" signature="155:210" ph="..." />
+            <marker date="1526032637368" expanded="true" signature="238:291" ph="..." />
+            <marker date="1526032637368" expanded="true" signature="352:383" ph="..." />
+            <marker date="1526032637368" expanded="true" signature="679:821" ph="..." />
+            <marker date="1526032637368" expanded="true" signature="696:810" ph="..." />
           </folding>
         </state>
       </provider>
